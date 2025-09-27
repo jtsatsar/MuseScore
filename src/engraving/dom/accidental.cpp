@@ -82,10 +82,14 @@ static const Acc ACC_LIST[] = {
     Acc(AccidentalVal::NATURAL,  150,   SymId::accidentalThreeQuarterTonesSharpStein),   // SHARP_SLASH4
 
     // Arel-Ezgi-Uzdilek (AEU)
-    Acc(AccidentalVal::NATURAL,    0,   SymId::accidentalBuyukMucennebFlat),    // FLAT_SLASH2
-    Acc(AccidentalVal::NATURAL,    0,   SymId::accidentalBakiyeFlat),           // FLAT_SLASH
-    Acc(AccidentalVal::NATURAL,    0,   SymId::accidentalKucukMucennebSharp),   // SHARP_SLASH3
-    Acc(AccidentalVal::NATURAL,    0,   SymId::accidentalBuyukMucennebSharp),   // SHARP_SLASH2
+    Acc(AccidentalVal::NATURAL,    -177.8,   SymId::accidentalBuyukMucennebFlat),    // FLAT_SLASH2
+    Acc(AccidentalVal::NATURAL,    -111.1,   SymId::accidentalKucukMucennebFlat),    // FLAT4
+    Acc(AccidentalVal::NATURAL,    -88.9,   SymId::accidentalBakiyeFlat),           // FLAT_SLASH
+    Acc(AccidentalVal::NATURAL,    -22.2,   SymId::accidentalKomaFlat),           // MIRRORED_FLAT3
+    Acc(AccidentalVal::NATURAL,    22.2,   SymId::accidentalKomaSharp),           // SHARP_SLASH5
+    Acc(AccidentalVal::NATURAL,    88.9,   SymId::accidentalBakiyeSharp),           // SHARP4
+    Acc(AccidentalVal::NATURAL,    111.1,   SymId::accidentalKucukMucennebSharp),   // SHARP_SLASH3
+    Acc(AccidentalVal::NATURAL,    177.8,   SymId::accidentalBuyukMucennebSharp),   // SHARP_SLASH2
 
     // Extended Helmholtz-Ellis accidentals (just intonation)
     Acc(AccidentalVal::NATURAL,    0,   SymId::accidentalDoubleFlatOneArrowDown),

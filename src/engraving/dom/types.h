@@ -182,7 +182,11 @@ enum class AccidentalType {
 
     // Arel-Ezgi-Uzdilek (AEU)
     FLAT_SLASH2,
+    FLAT4,
     FLAT_SLASH,
+    MIRRORED_FLAT3,
+    SHARP_SLASH5,
+    SHARP4,
     SHARP_SLASH3,
     SHARP_SLASH2,
 
